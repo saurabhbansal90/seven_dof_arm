@@ -1,0 +1,17 @@
+You can start planning now!
+
+[ INFO] [1523016038.825666384]: Stereo is NOT SUPPORTED
+[ INFO] [1523016038.825768999]: OpenGl version: 3 (GLSL 1.3).
+[joint_state_publisher-2] process has died [pid 18185, exit code 1, cmd /opt/ros/kinetic/lib/joint_state_publisher/joint_state_publisher __name:=joint_state_publisher __log:=/home/saurabh/.ros/log/1eb54fcc-3992-11e8-8f19-a86bad217c79/joint_state_publisher-2.log].
+log file: /home/saurabh/.ros/log/1eb54fcc-3992-11e8-8f19-a86bad217c79/joint_state_publisher-2*.log
+[ INFO] [1523016042.211881556]: Loading robot model 'seven_dof_arm'...
+[ INFO] [1523016042.265626375]: Loading robot model 'seven_dof_arm'...
+[ INFO] [1523016042.334792589]: Starting scene monitor
+[ INFO] [1523016042.337387529]: Listening to '/move_group/monitored_planning_scene'
+[ INFO] [1523016042.374019497]: No active joints or end effectors found for group ''. Make sure you have defined an end effector in your SRDF file and that kinematics.yaml is loaded in this node's namespace.
+[ INFO] [1523016042.377714729]: Constructing new MoveGroup connection for group 'arm' in namespace ''
+[ INFO] [1523016043.474162636]: Ready to take commands for planning group arm.
+[ INFO] [1523016043.474251832]: Looking around: no
+[ INFO] [1523016043.474299855]: Replanning: no
+[ WARN] [1523016043.487552651]: Interactive marker 'EE:goal_grasping_frame' contains unnormalized quaternions. This warning will only be output once but may be true for others; enable DEBUG messages for ros.rviz.quaternions to see more details.
+
