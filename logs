@@ -1,3 +1,280 @@
+... logging to /home/saurabh/.ros/log/1eb54fcc-3992-11e8-8f19-a86bad217c79/roslaunch-thinkpad-18145.log
+Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+
+started roslaunch server http://thinkpad:36489/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /joint_state_publisher/use_gui: False
+ * /move_group/allow_trajectory_execution: True
+ * /move_group/arm/longest_valid_segment_fraction: 0.005
+ * /move_group/arm/planner_configs: ['SBLkConfigDefau...
+ * /move_group/arm/projection_evaluator: joints(shoulder_p...
+ * /move_group/controller_list: [{'joints': ['sho...
+ * /move_group/gripper/longest_valid_segment_fraction: 0.005
+ * /move_group/gripper/planner_configs: ['SBLkConfigDefau...
+ * /move_group/gripper/projection_evaluator: joints(finger_joi...
+ * /move_group/jiggle_fraction: 0.05
+ * /move_group/max_range: 5.0
+ * /move_group/max_safe_path_cost: 1
+ * /move_group/moveit_controller_manager: moveit_fake_contr...
+ * /move_group/moveit_manage_controllers: True
+ * /move_group/octomap_resolution: 0.025
+ * /move_group/planner_configs/BFMTkConfigDefault/balanced: 0
+ * /move_group/planner_configs/BFMTkConfigDefault/cache_cc: 1
+ * /move_group/planner_configs/BFMTkConfigDefault/extended_fmt: 1
+ * /move_group/planner_configs/BFMTkConfigDefault/heuristics: 1
+ * /move_group/planner_configs/BFMTkConfigDefault/nearest_k: 1
+ * /move_group/planner_configs/BFMTkConfigDefault/num_samples: 1000
+ * /move_group/planner_configs/BFMTkConfigDefault/optimality: 1
+ * /move_group/planner_configs/BFMTkConfigDefault/radius_multiplier: 1.0
+ * /move_group/planner_configs/BFMTkConfigDefault/type: geometric::BFMT
+ * /move_group/planner_configs/BKPIECEkConfigDefault/border_fraction: 0.9
+ * /move_group/planner_configs/BKPIECEkConfigDefault/failed_expansion_score_factor: 0.5
+ * /move_group/planner_configs/BKPIECEkConfigDefault/min_valid_path_fraction: 0.5
+ * /move_group/planner_configs/BKPIECEkConfigDefault/range: 0.0
+ * /move_group/planner_configs/BKPIECEkConfigDefault/type: geometric::BKPIECE
+ * /move_group/planner_configs/BiESTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/BiESTkConfigDefault/type: geometric::BiEST
+ * /move_group/planner_configs/BiTRRTkConfigDefault/cost_threshold: 1e300
+ * /move_group/planner_configs/BiTRRTkConfigDefault/frountier_node_ratio: 0.1
+ * /move_group/planner_configs/BiTRRTkConfigDefault/frountier_threshold: 0.0
+ * /move_group/planner_configs/BiTRRTkConfigDefault/init_temperature: 100
+ * /move_group/planner_configs/BiTRRTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/BiTRRTkConfigDefault/temp_change_factor: 0.1
+ * /move_group/planner_configs/BiTRRTkConfigDefault/type: geometric::BiTRRT
+ * /move_group/planner_configs/ESTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/ESTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/ESTkConfigDefault/type: geometric::EST
+ * /move_group/planner_configs/FMTkConfigDefault/cache_cc: 1
+ * /move_group/planner_configs/FMTkConfigDefault/extended_fmt: 1
+ * /move_group/planner_configs/FMTkConfigDefault/heuristics: 0
+ * /move_group/planner_configs/FMTkConfigDefault/nearest_k: 1
+ * /move_group/planner_configs/FMTkConfigDefault/num_samples: 1000
+ * /move_group/planner_configs/FMTkConfigDefault/radius_multiplier: 1.1
+ * /move_group/planner_configs/FMTkConfigDefault/type: geometric::FMT
+ * /move_group/planner_configs/KPIECEkConfigDefault/border_fraction: 0.9
+ * /move_group/planner_configs/KPIECEkConfigDefault/failed_expansion_score_factor: 0.5
+ * /move_group/planner_configs/KPIECEkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/KPIECEkConfigDefault/min_valid_path_fraction: 0.5
+ * /move_group/planner_configs/KPIECEkConfigDefault/range: 0.0
+ * /move_group/planner_configs/KPIECEkConfigDefault/type: geometric::KPIECE
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/border_fraction: 0.9
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/min_valid_path_fraction: 0.5
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/range: 0.0
+ * /move_group/planner_configs/LBKPIECEkConfigDefault/type: geometric::LBKPIECE
+ * /move_group/planner_configs/LBTRRTkConfigDefault/epsilon: 0.4
+ * /move_group/planner_configs/LBTRRTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/LBTRRTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/LBTRRTkConfigDefault/type: geometric::LBTRRT
+ * /move_group/planner_configs/LazyPRMkConfigDefault/range: 0.0
+ * /move_group/planner_configs/LazyPRMkConfigDefault/type: geometric::LazyPRM
+ * /move_group/planner_configs/LazyPRMstarkConfigDefault/type: geometric::LazyPR...
+ * /move_group/planner_configs/PDSTkConfigDefault/type: geometric::PDST
+ * /move_group/planner_configs/PRMkConfigDefault/max_nearest_neighbors: 10
+ * /move_group/planner_configs/PRMkConfigDefault/type: geometric::PRM
+ * /move_group/planner_configs/PRMstarkConfigDefault/type: geometric::PRMstar
+ * /move_group/planner_configs/ProjESTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/ProjESTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/ProjESTkConfigDefault/type: geometric::ProjEST
+ * /move_group/planner_configs/RRTConnectkConfigDefault/range: 0.0
+ * /move_group/planner_configs/RRTConnectkConfigDefault/type: geometric::RRTCon...
+ * /move_group/planner_configs/RRTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/RRTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/RRTkConfigDefault/type: geometric::RRT
+ * /move_group/planner_configs/RRTstarkConfigDefault/delay_collision_checking: 1
+ * /move_group/planner_configs/RRTstarkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/RRTstarkConfigDefault/range: 0.0
+ * /move_group/planner_configs/RRTstarkConfigDefault/type: geometric::RRTstar
+ * /move_group/planner_configs/SBLkConfigDefault/range: 0.0
+ * /move_group/planner_configs/SBLkConfigDefault/type: geometric::SBL
+ * /move_group/planner_configs/SPARSkConfigDefault/dense_delta_fraction: 0.001
+ * /move_group/planner_configs/SPARSkConfigDefault/max_failures: 1000
+ * /move_group/planner_configs/SPARSkConfigDefault/sparse_delta_fraction: 0.25
+ * /move_group/planner_configs/SPARSkConfigDefault/stretch_factor: 3.0
+ * /move_group/planner_configs/SPARSkConfigDefault/type: geometric::SPARS
+ * /move_group/planner_configs/SPARStwokConfigDefault/dense_delta_fraction: 0.001
+ * /move_group/planner_configs/SPARStwokConfigDefault/max_failures: 5000
+ * /move_group/planner_configs/SPARStwokConfigDefault/sparse_delta_fraction: 0.25
+ * /move_group/planner_configs/SPARStwokConfigDefault/stretch_factor: 3.0
+ * /move_group/planner_configs/SPARStwokConfigDefault/type: geometric::SPARStwo
+ * /move_group/planner_configs/STRIDEkConfigDefault/degree: 16
+ * /move_group/planner_configs/STRIDEkConfigDefault/estimated_dimension: 0.0
+ * /move_group/planner_configs/STRIDEkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/STRIDEkConfigDefault/max_degree: 18
+ * /move_group/planner_configs/STRIDEkConfigDefault/max_pts_per_leaf: 6
+ * /move_group/planner_configs/STRIDEkConfigDefault/min_degree: 12
+ * /move_group/planner_configs/STRIDEkConfigDefault/min_valid_path_fraction: 0.2
+ * /move_group/planner_configs/STRIDEkConfigDefault/range: 0.0
+ * /move_group/planner_configs/STRIDEkConfigDefault/type: geometric::STRIDE
+ * /move_group/planner_configs/STRIDEkConfigDefault/use_projected_distance: 0
+ * /move_group/planner_configs/TRRTkConfigDefault/frountierNodeRatio: 0.1
+ * /move_group/planner_configs/TRRTkConfigDefault/frountier_threshold: 0.0
+ * /move_group/planner_configs/TRRTkConfigDefault/goal_bias: 0.05
+ * /move_group/planner_configs/TRRTkConfigDefault/init_temperature: 10e-6
+ * /move_group/planner_configs/TRRTkConfigDefault/k_constant: 0.0
+ * /move_group/planner_configs/TRRTkConfigDefault/max_states_failed: 10
+ * /move_group/planner_configs/TRRTkConfigDefault/min_temperature: 10e-10
+ * /move_group/planner_configs/TRRTkConfigDefault/range: 0.0
+ * /move_group/planner_configs/TRRTkConfigDefault/temp_change_factor: 2.0
+ * /move_group/planner_configs/TRRTkConfigDefault/type: geometric::TRRT
+ * /move_group/planning_plugin: ompl_interface/OM...
+ * /move_group/planning_scene_monitor/publish_geometry_updates: True
+ * /move_group/planning_scene_monitor/publish_planning_scene: True
+ * /move_group/planning_scene_monitor/publish_state_updates: True
+ * /move_group/planning_scene_monitor/publish_transforms_updates: True
+ * /move_group/request_adapters: default_planner_r...
+ * /move_group/start_state_max_bounds_error: 0.1
+ * /move_group/trajectory_execution/allowed_execution_duration_scaling: 1.2
+ * /move_group/trajectory_execution/allowed_goal_duration_margin: 0.5
+ * /move_group/trajectory_execution/allowed_start_tolerance: 0.01
+ * /robot_description: <...>
+ * /robot_description_kinematics/arm/kinematics_solver: kdl_kinematics_pl...
+ * /robot_description_kinematics/arm/kinematics_solver_attempts: 3
+ * /robot_description_kinematics/arm/kinematics_solver_search_resolution: 0.005
+ * /robot_description_kinematics/arm/kinematics_solver_timeout: 0.005
+ * /robot_description_planning/joint_limits/elbow_pitch_joint/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/elbow_pitch_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/elbow_pitch_joint/max_acceleration: 0
+ * /robot_description_planning/joint_limits/elbow_pitch_joint/max_velocity: 1
+ * /robot_description_planning/joint_limits/elbow_roll_joint/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/elbow_roll_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/elbow_roll_joint/max_acceleration: 0
+ * /robot_description_planning/joint_limits/elbow_roll_joint/max_velocity: 1
+ * /robot_description_planning/joint_limits/finger_joint1/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/finger_joint1/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/finger_joint1/max_acceleration: 0
+ * /robot_description_planning/joint_limits/finger_joint1/max_velocity: 1
+ * /robot_description_planning/joint_limits/finger_joint2/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/finger_joint2/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/finger_joint2/max_acceleration: 0
+ * /robot_description_planning/joint_limits/finger_joint2/max_velocity: 1
+ * /robot_description_planning/joint_limits/gripper_roll_joint/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/gripper_roll_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/gripper_roll_joint/max_acceleration: 0
+ * /robot_description_planning/joint_limits/gripper_roll_joint/max_velocity: 1
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/max_acceleration: 0
+ * /robot_description_planning/joint_limits/shoulder_pan_joint/max_velocity: 1
+ * /robot_description_planning/joint_limits/shoulder_pitch_joint/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/shoulder_pitch_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/shoulder_pitch_joint/max_acceleration: 0
+ * /robot_description_planning/joint_limits/shoulder_pitch_joint/max_velocity: 1
+ * /robot_description_planning/joint_limits/wrist_pitch_joint/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/wrist_pitch_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/wrist_pitch_joint/max_acceleration: 0
+ * /robot_description_planning/joint_limits/wrist_pitch_joint/max_velocity: 1
+ * /robot_description_planning/joint_limits/wrist_roll_joint/has_acceleration_limits: False
+ * /robot_description_planning/joint_limits/wrist_roll_joint/has_velocity_limits: True
+ * /robot_description_planning/joint_limits/wrist_roll_joint/max_acceleration: 0
+ * /robot_description_planning/joint_limits/wrist_roll_joint/max_velocity: 1
+ * /robot_description_semantic: <?xml version="1....
+ * /rosdistro: kinetic
+ * /rosversion: 1.12.13
+ * /rviz_thinkpad_18145_6609786202425677068/arm/kinematics_solver: kdl_kinematics_pl...
+ * /rviz_thinkpad_18145_6609786202425677068/arm/kinematics_solver_attempts: 3
+ * /rviz_thinkpad_18145_6609786202425677068/arm/kinematics_solver_search_resolution: 0.005
+ * /rviz_thinkpad_18145_6609786202425677068/arm/kinematics_solver_timeout: 0.005
+ * /source_list: ['/move_group/fak...
+
+NODES
+  /
+    joint_state_publisher (joint_state_publisher/joint_state_publisher)
+    move_group (moveit_ros_move_group/move_group)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+    rviz_thinkpad_18145_6609786202425677068 (rviz/rviz)
+
+auto-starting new master
+process[master]: started with pid [18155]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 1eb54fcc-3992-11e8-8f19-a86bad217c79
+process[rosout-1]: started with pid [18168]
+started core service [/rosout]
+process[joint_state_publisher-2]: started with pid [18185]
+process[robot_state_publisher-3]: started with pid [18186]
+process[move_group-4]: started with pid [18187]
+process[rviz_thinkpad_18145_6609786202425677068-5]: started with pid [18188]
+[ INFO] [1523016038.439486004]: Loading robot model 'seven_dof_arm'...
+[ INFO] [1523016038.475182622]: rviz version 1.12.15
+[ INFO] [1523016038.475308297]: compiled against Qt version 5.5.1
+[ INFO] [1523016038.475346503]: compiled against OGRE version 1.9.0 (Ghadamon)
+[ INFO] [1523016038.510730045]: Loading robot model 'seven_dof_arm'...
+[ INFO] [1523016038.550766253]: Publishing maintained planning scene on 'monitored_planning_scene'
+[ INFO] [1523016038.553829866]: MoveGroup debug mode is ON
+Starting context monitors...
+[ INFO] [1523016038.554019788]: Starting scene monitor
+[ INFO] [1523016038.557581856]: Listening to '/planning_scene'
+[ INFO] [1523016038.557713191]: Starting world geometry monitor
+[ INFO] [1523016038.561221839]: Listening to '/collision_object' using message notifier with target frame '/base_link '
+[ INFO] [1523016038.569066558]: Listening to '/planning_scene_world' for planning scene world geometry
+[ INFO] [1523016038.590173071]: Listening to '/attached_collision_object' for attached collision objects
+Context monitors started.
+[ INFO] [1523016038.611275440]: Initializing OMPL interface using ROS parameters
+[ INFO] [1523016038.641581277]: Using planning interface 'OMPL'
+[ INFO] [1523016038.643685226]: Param 'default_workspace_bounds' was not set. Using default value: 10
+[ INFO] [1523016038.644171341]: Param 'start_state_max_bounds_error' was set to 0.1
+[ INFO] [1523016038.644546527]: Param 'start_state_max_dt' was not set. Using default value: 0.5
+[ INFO] [1523016038.644944332]: Param 'start_state_max_dt' was not set. Using default value: 0.5
+[ INFO] [1523016038.645329606]: Param 'jiggle_fraction' was set to 0.05
+[ INFO] [1523016038.645695635]: Param 'max_sampling_attempts' was not set. Using default value: 100
+[ INFO] [1523016038.645746373]: Using planning request adapter 'Add Time Parameterization'
+[ INFO] [1523016038.645762940]: Using planning request adapter 'Fix Workspace Bounds'
+[ INFO] [1523016038.645777478]: Using planning request adapter 'Fix Start State Bounds'
+[ INFO] [1523016038.645791947]: Using planning request adapter 'Fix Start State In Collision'
+[ INFO] [1523016038.645812611]: Using planning request adapter 'Fix Start State Path Constraints'
+[ INFO] [1523016038.651313103]: Fake controller 'fake_arm_controller' with joints [ shoulder_pan_joint shoulder_pitch_joint elbow_roll_joint elbow_pitch_joint wrist_roll_joint wrist_pitch_joint gripper_roll_joint ]
+[ INFO] [1523016038.651762357]: Fake controller 'fake_gripper_controller' with joints [ finger_joint1 finger_joint2 ]
+[ INFO] [1523016038.652213710]: Returned 2 controllers in list
+[ INFO] [1523016038.665914745]: Trajectory execution is managing controllers
+Loading 'move_group/ApplyPlanningSceneService'...
+Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/joint_state_publisher/joint_state_publisher", line 432, in <module>
+    jsp = JointStatePublisher()
+  File "/opt/ros/kinetic/lib/joint_state_publisher/joint_state_publisher", line 45, in __init__
+    robot = xml.dom.minidom.parseString(description).getElementsByTagName('robot')[0]
+  File "/usr/lib/python2.7/xml/dom/minidom.py", line 1928, in parseString
+    return expatbuilder.parseString(string)
+  File "/usr/lib/python2.7/xml/dom/expatbuilder.py", line 940, in parseString
+    return builder.parseString(string)
+  File "/usr/lib/python2.7/xml/dom/expatbuilder.py", line 223, in parseString
+    parser.Parse(string, True)
+UnicodeEncodeError: 'ascii' codec can't encode character u'\ufeff' in position 0: ordinal not in range(128)
+Loading 'move_group/ClearOctomapService'...
+Loading 'move_group/MoveGroupCartesianPathService'...
+Loading 'move_group/MoveGroupExecuteTrajectoryAction'...
+Loading 'move_group/MoveGroupGetPlanningSceneService'...
+Loading 'move_group/MoveGroupKinematicsService'...
+Loading 'move_group/MoveGroupMoveAction'...
+Loading 'move_group/MoveGroupPickPlaceAction'...
+Loading 'move_group/MoveGroupPlanService'...
+Loading 'move_group/MoveGroupQueryPlannersService'...
+Loading 'move_group/MoveGroupStateValidationService'...
+[ INFO] [1523016038.730679455]: 
+
+********************************************************
+* MoveGroup using: 
+*     - ApplyPlanningSceneService
+*     - ClearOctomapService
+*     - CartesianPathService
+*     - ExecuteTrajectoryAction
+*     - GetPlanningSceneService
+*     - KinematicsService
+*     - MoveAction
+*     - PickPlaceAction
+*     - MotionPlanService
+*     - QueryPlannersService
+*     - StateValidationService
+********************************************************
+
+[ INFO] [1523016038.730732190]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[ INFO] [1523016038.730749686]: MoveGroup context initialization complete
+
 You can start planning now!
 
 [ INFO] [1523016038.825666384]: Stereo is NOT SUPPORTED
