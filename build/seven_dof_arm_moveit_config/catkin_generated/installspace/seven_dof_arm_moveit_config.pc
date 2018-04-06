@@ -1,0 +1,8 @@
+prefix=/home/saurabh/work/ros/moveit_ws/install
+
+Name: seven_dof_arm_moveit_config
+Description: Description of seven_dof_arm_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/saurabh/work/ros/moveit_ws/install/lib 
+Requires: 

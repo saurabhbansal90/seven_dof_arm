@@ -1,0 +1,2 @@
+robo_description:seven_dof_arm_moveit_config
+-DCATKIN_DEVEL_PREFIX=/home/saurabh/work/ros/moveit_ws/devel -DCMAKE_INSTALL_PREFIX=/home/saurabh/work/ros/moveit_ws/install -G Unix Makefiles

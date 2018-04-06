@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: robo_description
+    relative_path: urdf/seven_dof_arm.urdf
+  SRDF:
+    relative_path: config/seven_dof_arm.srdf
+  CONFIG:
+    author_name: Saurabh
+    author_email: saurabh.bansal.90@gmail.com
+    generated_timestamp: 1523015523
